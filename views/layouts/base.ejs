@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback">
+
+    <link rel="stylesheet" href="/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+
+    <link rel="stylesheet" href="/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
+    <link rel="stylesheet" href="/css/adminlte.css">
+    <link rel="stylesheet" href="/css/ltr.css">
+</head>
+
+<body class="sidebar-mini layout-fixed layout-footer-fixed layout-navbar-fixed" style="height: auto;">
+    <div class="wrapper">
+        <%- include('../partials/header') %>
+            <%- include('../partials/sidebar') %>
+                <div class="content-wrapper py-2" style="min-height: 1302.12px;">
+                    <div class="content-header">
+                        <div class="container-fluid">
+                            <!-- <div class="row">
+                            <div class="col-lg-8 col-12">
+                                @if(flashMessages.has('message.error'))
+                                @!alert({
+                                message:flashMessages.get('message.error'),
+                                type:"error"
+                                })
+                                @end
+                            </div>
+                        </div> -->
+                            <div class="row mb-2">
+                                <div class="col-sm-6">
+                                    <h1 class="m-0">Transactions</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ol class="breadcrumb float-sm-right">
+                                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                        <li class="breadcrumb-item active">Investment transactions</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="content px-2">
+                        <%- body %>
+                    </section>
+                </div>
+    </div>
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-block">
+            <!-- <b>Version</b> 3.2.0 -->
+        </div>
+        <strong>Copyright © 2023 <a href="#">Binharvest</a>.</strong> All rights
+        reserved.
+    </footer>
+    <!-- jQuery -->
+    <script src="/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="/plugins/jszip/jszip.min.js"></script>
+    <script src="/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="/js/adminlte.js"></script>
+
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        });
+    </script>
+
+</body>
+
+</html>
