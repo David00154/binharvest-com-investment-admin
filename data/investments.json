@@ -4,259 +4,302 @@
       "name": "Maxwell Stewart",
       "investment": 10000,
       "withdrawal": 5000,
-      "date": "2023-06-29T10:15:00Z"
+      "date": "2023-06-29T10:15:00Z",
+      "status": true
     },
     {
       "name": "Emily Johnson",
       "investment": 25000,
       "withdrawal": 15000,
-      "date": "2023-07-01T09:30:00Z"
+      "date": "2023-07-01T09:30:00Z",
+      "status": true
     },
     {
       "name": "Michael Williams",
       "investment": 5000,
       "withdrawal": 2500,
-      "date": "2023-06-28T14:45:00Z"
+      "date": "2023-06-28T14:45:00Z",
+      "status": true
     },
     {
       "name": "Emma Jones",
       "investment": 15000,
       "withdrawal": 10000,
-      "date": "2023-07-12T17:20:00Z"
+      "date": "2023-07-12T17:20:00Z",
+      "status": true
     },
     {
       "name": "Daniel Brown",
       "investment": 20000,
       "withdrawal": 8000,
-      "date": "2023-07-07T11:05:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Olivia Davis",
       "investment": 12000,
       "withdrawal": 6000,
-      "date": "2023-07-03T13:40:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Yoon Ji-hyun",
       "investment": 3000,
       "withdrawal": 1500,
-      "date": "2023-06-26T16:25:00Z"
+      "date": "2023-06-26T16:25:00Z",
+      "status": true
     },
     {
       "name": "Huo Gilbert",
       "investment": 8000,
       "withdrawal": 4000,
-      "date": "2023-07-14T08:50:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Sophia Lawrence",
       "investment": 18000,
       "withdrawal": 10000,
-      "date": "2023-07-06T10:30:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "William Taylor",
       "investment": 6000,
       "withdrawal": 3000,
-      "date": "2023-07-10T14:15:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Lee Min-ho",
       "investment": 35000,
       "withdrawal": 20000,
-      "date": "2023-07-09T12:00:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Joseph Rodriguez",
       "investment": 10000,
       "withdrawal": 5000,
-      "date": "2023-06-30T15:45:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Mia Martinez",
       "investment": 20000,
       "withdrawal": 10000,
-      "date": "2023-07-08T09:10:00Z"
+      "date": "2023-07-08T09:10:00Z",
+      "status": true
     },
     {
       "name": "Andrew Harris",
       "investment": 5000,
       "withdrawal": 3000,
-      "date": "2023-06-25T13:35:00Z"
+      "date": "2023-06-25T13:35:00Z",
+      "status": true
     },
     {
       "name": "Abigail Lewis",
       "investment": 15000,
       "withdrawal": 8000,
-      "date": "2023-07-05T16:00:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "James Lee",
       "investment": 9000,
       "withdrawal": 4000,
-      "date": "2023-07-11T10:55:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Charlotte Walker",
       "investment": 7000,
       "withdrawal": 3500,
-      "date": "2023-07-13T08:40:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Elizabeth Hall",
       "investment": 12000,
       "withdrawal": 6000,
-      "date": "2023-07-02T11:25:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "David Allen",
       "investment": 25000,
       "withdrawal": 15000,
-      "date": "2023-07-04T15:10:00Z"
+      "date": "2023-07-04T15:10:00Z",
+      "status": true
     },
     {
       "name": "Hwang Min-jun",
       "investment": 5000,
       "withdrawal": 2000,
-      "date": "2023-06-27T17:55:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Benjamin Scott",
       "investment": 18000,
       "withdrawal": 9000,
-      "date": "2023-07-15T10:20:00Z"
+      "date": "2023-07-15T10:20:00Z",
+      "status": true
     },
     {
       "name": "Chloe King",
       "investment": 3000,
       "withdrawal": 1500,
-      "date": "2023-06-24T14:05:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Henry Green",
       "investment": 16000,
       "withdrawal": 8000,
-      "date": "2023-07-17T09:30:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Lucy White",
       "investment": 10000,
       "withdrawal": 5000,
-      "date": "2023-06-30T12:45:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Thomas Baker",
       "investment": 18000,
       "withdrawal": 10000,
-      "date": "2023-07-07T10:10:00Z"
+      "date": "2023-07-07T10:10:00Z",
+      "status": true
     },
     {
       "name": "Kim Min-ji",
       "investment": 4000,
       "withdrawal": 2000,
-      "date": "2023-06-23T13:35:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Lily Turner",
       "investment": 15000,
       "withdrawal": 8000,
-      "date": "2023-07-05T16:00:00Z"
+      "date": "2023-07-05T16:00:00Z",
+      "status": true
     },
     {
       "name": "Jackson Adams",
       "investment": 7000,
       "withdrawal": 3500,
-      "date": "2023-07-12T08:25:00Z"
+      "date": "2023-07-12T08:25:00Z",
+      "status": true
     },
     {
       "name": "Sophie Campbell",
       "investment": 20000,
       "withdrawal": 10000,
-      "date": "2023-07-08T09:50:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Park Ji-hoon",
       "investment": 5000,
       "withdrawal": 3000,
-      "date": "2023-06-26T12:15:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Kim Soo-jin",
       "investment": 14000,
       "withdrawal": 7000,
-      "date": "2023-07-18T11:40:00Z"
+      "date": "2023-07-18T11:40:00Z",
+      "status": true
     },
     {
       "name": "Christopher Rivera",
       "investment": 12000,
       "withdrawal": 6000,
-      "date": "2023-07-02T14:15:00Z"
+      "date": "2023-07-02T14:15:00Z",
+      "status": true
     },
     {
       "name": "Zoe Mitchell",
       "investment": 25000,
       "withdrawal": 15000,
-      "date": "2023-07-04T17:00:00Z"
+      "date": "2023-07-04T17:00:00Z",
+      "status": true
     },
     {
       "name": "Andrew Carter",
       "investment": 5000,
       "withdrawal": 2000,
-      "date": "2023-06-27T09:25:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Natalie Hill",
       "investment": 18000,
       "withdrawal": 9000,
-      "date": "2023-07-15T12:50:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Kim Min-seo",
       "investment": 4000,
       "withdrawal": 2000,
-      "date": "2023-06-22T16:15:00Z"
+      "date": "2023-06-22T16:15:00Z",
+      "status": true
     },
     {
       "name": "Penelope Murphy",
       "investment": 16000,
       "withdrawal": 8000,
-      "date": "2023-07-17T08:40:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Ryan Cook",
       "investment": 10000,
       "withdrawal": 5000,
-      "date": "2023-06-30T11:05:00Z"
+      "date": "2023-06-30T11:05:00Z",
+      "status": true
     },
     {
       "name": "Hannah Reed",
       "investment": 18000,
       "withdrawal": 10000,
-      "date": "2023-07-07T09:30:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Kim Min-jae",
       "investment": 4000,
       "withdrawal": 2000,
-      "date": "2023-06-21T12:55:00Z"
+      "date": "2023-06-21T12:55:00Z",
+      "status": true
     },
     {
       "name": "Stella Simmons",
       "investment": 15000,
       "withdrawal": 8000,
-      "date": "2023-07-05T15:20:00Z"
+      "date": "2023-07-05T15:20:00Z",
+      "status": true
     },
     {
       "name": "Leo Richardson",
       "investment": 7000,
       "withdrawal": 3500,
-      "date": "2023-07-12T08:45:00Z"
+      "date": "-",
+      "status": false
     },
     {
       "name": "Lucy Kelly",
       "investment": 20000,
       "withdrawal": 10000,
-      "date": "2023-07-08T09:10:00Z"
+      "date": "-",
+      "status": false
     }
   ]
 }

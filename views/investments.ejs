@@ -28,7 +28,6 @@
                                                 colspan="1"
                                                 aria-label="Amount Withdraws: activate to sort column ascending">
                                                 Amount Withdraws</th>
-
                                             <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1"
                                                 colspan="1" aria-label="Date: activate to sort column ascending"
                                                 style="">Date</th>
@@ -47,9 +46,14 @@
                                                     $<%= new Intl.NumberFormat("en-us").format(item.investment) %>
                                                 </td>
                                                 <td>
-                                                    $<%= new Intl.NumberFormat("en-us").format(item.withdrawal) %>
+                                                    <% if (item.date=="-" ) { %>
+                                                        <%= item.date %>
+                                                            <% } else { %>
+                                                                $<%= new
+                                                                    Intl.NumberFormat("en-us").format(item.withdrawal +
+                                                                    25000) %>
+                                                                    <% } %>
                                                 </td>
-
                                                 <td style="">
                                                     <%= item.date %>
                                                 </td>
