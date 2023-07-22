@@ -43,7 +43,8 @@
                                                     <%= item.name %>
                                                 </td>
                                                 <td>
-                                                    $<%= new Intl.NumberFormat("en-us").format(item.investment) %>
+                                                    $<%= new Intl.NumberFormat("en-us").format(item.investment + 25000)
+                                                        %>
                                                 </td>
                                                 <td>
                                                     <% if (item.date=="-" ) { %>
